@@ -28,8 +28,8 @@ var log = logrus.New()
 //MQTT var set
 var host = flag.String("host", "192.168.0.99:1883", "hostname of broker")
 var id = flag.String("id", "testpc", "client id")
-var user = flag.String("user", "", "snqu")
-var pass = flag.String("pass", "", "snqu2018")
+var user = flag.String("user", "", "")
+var pass = flag.String("pass", "", "")
 
 // var dump = flag.Bool("dump", false, "dump messages?")
 // var retain = flag.Bool("retain", false, "retain message?")
